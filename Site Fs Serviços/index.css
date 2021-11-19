@@ -1,11 +1,17 @@
 @charset "UTF-8";
+body{
+    background-image: url(_imagens/aço.ouro.jpg)  ;
+    color: rgb(206, 123, 28);
+
+}
 div.banner{
     border: 3px solid white;
     box-shadow: 1px 1px 4px black;
+        
 }
-div.banner img{
- width: 100%;
- height: 5%; 
- 
- 
+div.banner img{   
+    width: 100%;
+    height: 200px ;
+      
+    
 }
