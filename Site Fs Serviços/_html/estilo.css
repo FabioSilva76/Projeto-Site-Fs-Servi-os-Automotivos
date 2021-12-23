@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+ul#album-servicos{
+
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-servicos li{
+
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+ul#album-servicos li#foto01{
+    background: url('../_imagens/hidratacao.jpg' ) no-repeat;
+}
