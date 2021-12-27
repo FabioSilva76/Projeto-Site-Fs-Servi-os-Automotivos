@@ -3,6 +3,7 @@
    text-align: center;
    height: 10px;
    color: #ff6600;
+   font-size: 50px;
 }
 ul#album-servicos{
 
@@ -24,7 +25,7 @@ ul#album-servicos li{
 }
 ul#album-servicos li span{
     opacity: 0;
-    color:rgb(17, 17, 16);
+    color:white;
     text-shadow: 0px 0px 3px white;
     background-color: #ff660075;
     line-height: 370px;
@@ -38,13 +39,43 @@ ul#album-servicos li:hover span{
 ul#album-servicos li:hover {
     -webkit-transform: scale(1.5);
 }
+ul#album-servicos li#foto1{
+    background: url('../_imagens/limpezabanco.png' ) no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px 500px;
+    background-color:white;
+}
+ul#album-servicos li#foto1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
 ul#album-servicos li#foto2{
-    background: url('../_imagens/hidratacao.png' ) no-repeat;
+    background: url('../_imagens/hdratação.png' ) no-repeat;
     background-position: 50% 50%;
     background-size: 500px 500px;
     background-color:white;
 }
 ul#album-servicos li#foto2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-servicos li#foto3{
+    background: url('../_imagens/linpezainterna.png' ) no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px 500px;
+    background-color:white;
+}
+ul#album-servicos li#foto3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-servicos li#foto4{
+    background: url('../_imagens/impermeabilizacao.png' ) no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px 500px;
+    background-color:white;
+}
+ul#album-servicos li#foto4:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
