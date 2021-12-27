@@ -1,8 +1,13 @@
 @charset "utf-8";
+body{
+   background-color: #ff6600e0;
+   
+}
+
 .title{
    text-align: center;
    height: 10px;
-   color: #ff6600;
+   color:white;
    font-size: 50px;
 }
 ul#album-servicos{
