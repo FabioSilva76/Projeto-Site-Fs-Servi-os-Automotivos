@@ -3,7 +3,7 @@ body{
    background-color: #ff6600e0;
    background: url(../_imagens/fundo.png) no-repeat;
    background-position: center;
-   background-size: 100%
+   background-size: 100% ;
    
 }
 .title{
@@ -12,6 +12,7 @@ body{
    color:white;
    text-shadow: 1px 1px 1px black;
    font-size: 50px;
+
 }
 
 ul#album-servicos{
@@ -21,6 +22,7 @@ ul#album-servicos{
     padding: 50px;
     overflow: hidden;
     list-style: none;
+    
 }
 ul#album-servicos li{
 
@@ -137,4 +139,14 @@ ul#album-servicos li#foto9{
 ul#album-servicos li#foto9:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
+}
+footer li{
+    position: relative;
+    text-align: center;
+    
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
