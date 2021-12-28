@@ -10,7 +10,7 @@ body{
    text-align: center;
    height: 10px;
    color:white;
-   text-shadow: 1px 1px 1px black;
+   text-shadow: 1px 1px 3px black;
    font-size: 50px;
 
 }
@@ -30,7 +30,7 @@ ul#album-servicos li{
     width: 200px;
     height: 200px;
     margin: 10px;
-    border: 5px solid white;
+    border: 3px solid white;
     background-color: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
@@ -148,5 +148,5 @@ footer li{
 footer p{
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size:15px;
 }
