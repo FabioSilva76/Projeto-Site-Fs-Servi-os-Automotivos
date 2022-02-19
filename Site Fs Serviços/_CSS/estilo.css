@@ -47,7 +47,7 @@ ul#album-servicos li:hover {
 ul#album-servicos li#foto1{
     background: url('../_imagens/limpezabanco.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size: 100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto1:hover {
@@ -57,7 +57,7 @@ ul#album-servicos li#foto1:hover {
 ul#album-servicos li#foto2{
     background: url('../_imagens/hdratação.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size: 100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto2:hover {
@@ -67,7 +67,7 @@ ul#album-servicos li#foto2:hover {
 ul#album-servicos li#foto3{
     background: url('../_imagens/linpezainterna.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size: 100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto3:hover {
@@ -77,7 +77,7 @@ ul#album-servicos li#foto3:hover {
 ul#album-servicos li#foto4{
     background: url('../_imagens/impermeabilizacao.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size: 100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto4:hover {
@@ -87,7 +87,7 @@ ul#album-servicos li#foto4:hover {
 ul#album-servicos li#foto5{
     background: url('../_imagens/lavamotor.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size:  100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto5:hover {
@@ -97,7 +97,7 @@ ul#album-servicos li#foto5:hover {
 ul#album-servicos li#foto6{
     background: url('../_imagens/polimento.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size:  100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto6:hover {
@@ -107,7 +107,7 @@ ul#album-servicos li#foto6:hover {
 ul#album-servicos li#foto7{
     background: url('../_imagens/farol.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size:  100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto7:hover {
@@ -117,7 +117,7 @@ ul#album-servicos li#foto7:hover {
 ul#album-servicos li#foto8{
     background: url('../_imagens/chuvaacida.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size:  100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto8:hover {
@@ -127,7 +127,7 @@ ul#album-servicos li#foto8:hover {
 ul#album-servicos li#foto9{
     background: url('../_imagens/plasticos.png' ) no-repeat;
     background-position: 50% 50%;
-    background-size: 500px 500px;
+    background-size:  100% 100%;
     background-color:white;
 }
 ul#album-servicos li#foto9:hover {
