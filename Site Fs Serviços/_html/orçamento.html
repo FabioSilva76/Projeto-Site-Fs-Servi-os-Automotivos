@@ -9,8 +9,25 @@
 </head>
 <body>      
     <header>
-          <h1>Faça orçamento on-line</h1>
+        <h1>FS Serviços Automotivos</h1>
+          <h2>Orçamento on-line</h2>
      </header>
+     <tr>
+        <p>   <td>Nome:</td>
+            <input type="text" id="nome" maxlength="50">
+            </p>
+
+         <p>
+              <td>Tel./Whats</td>
+            <input type="tel" name="telefone" id="telefone">
+             </p>
+             <p>
+                 <td>Email:</td>
+                 <input type="email" name="email" id="email">
+             </p>
+
+     </tr>
+
 <section>
   <form action="" method="post">
     <fieldset>
@@ -18,7 +35,7 @@
       <label for="modelcar">Modelo do Veículo</label>
        <input type="text" >
 </div>
-
+<br>
   <div>
         <tr>
             <td>
@@ -31,17 +48,18 @@
 <div>
 <p>Tipos de Serviços</p>
 </div>
-    <p><input type="checkbox" name="polipint" id="polipint">
+        <p>
+        <input type="checkbox" class="checkbox">
         Polimento da Pintura </p>
-        <p><input type="checkbox" name="polifarol" id="polifarol">
+        <p><input type="checkbox" class="checkbox">
         Polimento de Faróis</p> 
-        <p><input type="checkbox" name="higinter" id="higinter">
+        <p><input type="checkbox" class="checkbox">
         Higiênização Interna</p>
-        <p><input type="checkbox" name="lavbanc" id="lavbanc">
+        <p><input type="checkbox" class="checkbox">
         Lavagem dos Bancos</p>
-        <p><input type="checkbox" name="hidcouro" id="hidcouro">
+        <p><input type="checkbox" class="checkbox">
         Hidratação em Couro</p>
-        <input type="button" value="Orçar">
+        <input type="button" value="Orçar" id="orcar">
 </fieldset>
 
     </form>
@@ -59,6 +77,6 @@
 
 </footer>
 
-    <script src="../_javaScript/orçamento.js"></script>
+    <script src="../_javaScript/orçamento.js" defer></script>
 </body>
 </html>
