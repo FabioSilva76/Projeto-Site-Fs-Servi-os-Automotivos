@@ -26,7 +26,3 @@ var lavbanc = 150
 var hidracouro = 180
 
 
-alert(polifarol);
-alert(higinter);
-alert(lavbanc);
-alert(hidracouro);
