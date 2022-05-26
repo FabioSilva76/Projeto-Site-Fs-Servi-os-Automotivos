@@ -1,5 +1,5 @@
-
-var checkbox = document.querySelectorAll('.checkbox');
+/*
+var checkbox = document.querySelectorAll('input');
 
 var selecionados = 0;
 
@@ -18,7 +18,9 @@ btn.addEventListener('click', function(e){
     });
     console.log(selecionados);
   
-});
+});*/
+ 
+
 
 
 
