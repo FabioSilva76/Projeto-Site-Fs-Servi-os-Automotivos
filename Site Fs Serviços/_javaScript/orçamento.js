@@ -17,7 +17,7 @@ btn.addEventListener('click', function(e){
         
     });
     console.log(selecionados);
-
+  
 });
 
 var polifarol = 100
