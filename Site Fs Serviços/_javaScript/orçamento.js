@@ -20,9 +20,5 @@ btn.addEventListener('click', function(e){
   
 });
 
-var polifarol = 100
-var higinter = 250
-var lavbanc = 150
-var hidracouro = 180
 
 
