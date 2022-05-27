@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded",function(){ //Quando o documento fo
                 Se o segundo checkbox for selecionado, então o valor de [i] é 1 e na posição 1 do vetor é Higienização Interna, a mesma que foi selecionada */
             }
         }
-        document.getElementById("btnOrcar()");// Desativamos o botão.
+        document.getElementById("btnOrcar").disabled = "disabled";// Desativamos o botão.
     });
 });
 
