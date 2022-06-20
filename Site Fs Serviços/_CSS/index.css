@@ -59,6 +59,7 @@
     align-items: center;
     background-color: #f7ab05;
     opacity: 0;
+    
 }
 .show-menu .hamburguer:hover span{
     opacity: 1;
