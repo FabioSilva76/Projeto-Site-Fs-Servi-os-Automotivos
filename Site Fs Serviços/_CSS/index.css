@@ -95,6 +95,14 @@ header{
         transform: scale(1);
     }
 }
+@keyframes zoom2{
+    100%{
+        transform: scale(1.1);
+    }
+    0%{
+        transform: scale(1);
+    }
+}
 .banner {
     position: absolute;
     top: 30%;
@@ -239,6 +247,7 @@ header{
 .card-img-wrapper{
     width: 100%;
     height: 100%;
+   
 }
 .card-img-wrapper img{
     object-fit: cover;
@@ -253,6 +262,7 @@ header{
 }
 .card:hover .card-img-wrapper img{
     opacity: .6;
+    animation: zoom2 20s;
 }
 .card-info{
     opacity: 0;
@@ -260,6 +270,7 @@ header{
     position: absolute;
     bottom: 10%;
     transition: all 3s;
+   
     
 }
 .card-info h2{
@@ -267,11 +278,13 @@ header{
     color:white;
     text-shadow: 1px px 2px black;
     text-align: center;
+   
 }
 .card-info p{
     color: white;
     text-shadow: 1px 1px 2px black;
     text-align: center;
+    
 
 }
 .card-info button{
@@ -288,4 +301,5 @@ header{
 .card:hover .card-info{
     opacity: 1;
     visibility: visible
+   
 }
