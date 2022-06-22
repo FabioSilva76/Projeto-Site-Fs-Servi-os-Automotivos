@@ -109,7 +109,7 @@ header{
     left: 15%;
 }
 .banner h1{
-    color: white;
+    color: #DE821D;
     font-size: 3.5rem;
     font-family: "Baloo Da 2", serif;
     font-weight: 200;
@@ -121,7 +121,7 @@ header{
 }
 .banner p{
     font-family: "Josefin Slab", serif;
-    color: white;
+    color: #DE821D;
     font-size: 1.5rem;
     text-shadow: .2rem .2rem 1p rgba(0,0, 0, 0.4) ;
     margin-bottom: 2rem;
@@ -134,9 +134,9 @@ header{
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    background: #e6b216;  
-    background: -webkit-linear-gradient(to right, #2b2b2b, #f7ab05);  
-    background: linear-gradient(to right, #4d4b4b, #f7ab05); 
+    background: #DE821D;  
+    background: -webkit-linear-gradient(to left, #5C2B00,#333231, #DE821D);  
+    background: linear-gradient(to left,#5C2B00, #5C2B00,#DE821D); 
     padding: 0.5rem 2rem 0.5rem 2rem;
     border: none;
     border-radius: 1rem ;
@@ -218,9 +218,9 @@ header{
     
 }
 .sessao-projetos{
-    background: #e6b216e2;  
-    background: -webkit-linear-gradient(to right, #2b2b2b, #f7aa05cc);  
-    background: linear-gradient(to right, #4d4b4b, #f7aa05cb); 
+    background: #DE821D;  
+    background: -webkit-linear-gradient(to right, #708b8b, #644947,#e4933e);  
+    background: linear-gradient(to right,#708b8b, #644947,#e4933e); 
     width: 100%;
     height: 100vh;
 }
@@ -255,7 +255,7 @@ header{
     height: 100%;
     border-radius: .5rem;
     margin-top: 15px;
-    border-color: #e6b216;
+    border-color: black;
     border-style: solid;
     transition: opacity 2s ;
     
@@ -290,13 +290,14 @@ header{
 .card-info button{
     width: 8rem;
     height: 2.5rem;
-    background: #e6b216;  
-    background: -webkit-linear-gradient(to right, #2b2b2b, #f7ab05);  
-    background: linear-gradient(to right, #4d4b4b, #f7ab05); 
+    background: #DE821D;  
+    background: -webkit-linear-gradient(to left, #5C2B00,#333231, #DE821D);  
+    background: linear-gradient(to left,#5C2B00, #5C2B00,#DE821D); 
     border-radius: 5rem;
     border: none;
     margin-top: 2rem;
     margin-left: 6rem;
+    color: white;
 }
 .card:hover .card-info{
     opacity: 1;
