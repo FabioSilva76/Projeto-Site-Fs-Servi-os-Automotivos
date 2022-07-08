@@ -302,3 +302,76 @@ header{
     visibility: visible
    
 }
+.sessao-orcamento{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../_imagens/fundo.png) no-repeat;
+    opacity: 0.8;
+    background-size: 100% ;
+    
+}
+.orcamento-wrapper{
+    width: 60%;
+    height: 80%;
+    background-color: #aca6a657;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0, 0, 0.5);
+    position: relative;
+}
+.sessao-orcamento h1{
+   
+    position: absolute;
+    top: -2.5rem;
+    left: 2.5rem;
+    background: #DE821D;  
+    background: -webkit-linear-gradient(to left, #5C2B00,#333231, #DE821D);  
+    background: linear-gradient(to left,#5C2B00, #5C2B00,#DE821D);
+    padding: 0 3rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: lighter;
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0, 0, 0.5);
+    border-radius: 10px;
+}
+.sessao-orcamento form{
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.sessao-orcamento label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    
+}
+.sessao-orcamento input[type="number"]{
+    width: 5rem;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 2px
+    ;
+}
+.btn-orcamento{
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2;
+    background: #DE821D;  
+    background: -webkit-linear-gradient(to left, #5C2B00,#333231, #DE821D);  
+    background: linear-gradient(to left,#5C2B00, #5C2B00,#DE821D);
+}
+
+    
