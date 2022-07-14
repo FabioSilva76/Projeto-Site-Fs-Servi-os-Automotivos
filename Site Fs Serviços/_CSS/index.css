@@ -309,9 +309,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../_imagens/fundo.png) no-repeat;
+    background: url(../_imagens/detalhesCar.png) no-repeat ;
     opacity: 0.8;
-    background-size: 100% ;
+    background-size: cover;
+    
+    
     
 }
 .orcamento-wrapper{
