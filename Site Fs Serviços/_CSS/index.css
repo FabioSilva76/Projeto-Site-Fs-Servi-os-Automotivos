@@ -376,4 +376,26 @@ header{
     background: linear-gradient(to left,#5C2B00, #5C2B00,#DE821D);
 }
 
-    
+.social-midia-rodape{
+    text-align: center;
+    position: relative;
+    height: 100%;
+    background: #DE821D;  
+    background: -webkit-linear-gradient(to left, #5C2B00,#333231, #DE821D);  
+    background: linear-gradient(to left,#5C2B00, #5C2B00,#DE821D);
+}
+.social-midia-rodape i{
+    color: #84827e;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 2rem;
+    justify-content: center ;
+    align-items:center;
+    border-radius: 50%;
+    transition: color 1s;
+    transition:  1s;
+}
+.social-midia-rodape i:hover{
+      color: #f7ab05;
+    transition:  1s;
+}
